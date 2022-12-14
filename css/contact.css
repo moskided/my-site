@@ -9,6 +9,22 @@ body {
     margin: 30px auto;
     display: flex;
 }
+@media (max-width:670px) {
+    body {
+        margin: 2px;
+        padding: 2px;
+    }
+    .all{
+        display: block;
+        width: 100%;
+    }
+    .sidebar {
+        margin-top: 80px;
+    }
+    footer {
+        width: 100%;
+    }
+}
 
 .main {
     width: 700px;
