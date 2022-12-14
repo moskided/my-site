@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(240, 180, 180);
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -10px;
+}
+a {
+    padding: 7px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+}
+a:hover {
+    transition: .6s;
+    background-color: rgb(185, 105, 105);
+}
+dt {
+    text-decoration: underline;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.action {
+    margin-top: 150px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}

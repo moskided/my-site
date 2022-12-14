@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(/images/felix-besombes-x6-BvoF4LYw-unsplash.jpg);
+    background-position: center;
+}
+.margin {
+    width: 80%;
+    margin: 0 auto;
+}
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.header h2 {
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.images {
+    width: 5px;
+}
+.content {
+    width: 40%;
+    float: right;
+    padding-top: 100px;
+}
+img {
+    font-weight: 0;
+    background: transparent;
+    border-radius: 20px;
+    width: 300px;
+}
+@media (max-width:900px){
+    .header {
+        display: block;
+        text-align: center;
+    }
+    nav ul {
+        justify-content: center;
+    }
+    img {
+        /* padding: 0 auto; */
+        border-radius: 20px;
+        width: 70%;
+        /* margin: 0 auto; */
+    }
+    .head {
+        display: block;
+    }
+    .content {
+        float: none;
+        width: 100%;
+        margin-top: -80px;
+    }
+    .content p {
+        color: rgb(239, 240, 238);
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+}
+span {
+    color: red;
+}
+.head {
+    padding-top: 100px;
+    /* display: flex; */
+    width: 80%;
+    /* justify-content: center; */
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 20px 0;
+}
+nav ul li {
+    padding: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: .6s;
+}
+nav ul li a:hover {
+    color: red;
+}
+.content a {
+    padding: 10px;
+    background-color: red;
+    border-radius: 40px;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+    transition: .5s;
+}
+.content a:hover{
+    background-color: rgb(163, 86, 86);
+}
+.content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.content h3 {
+    font-size: 25px;
+    color: rgb(2, 2, 3);
+    margin-top: -10px;
+}
+.finals {
+    margin-top: 150px;
+    text-align: center;
+    /* background-color: rgb(129, 97, 160); */
+    /* height: 70px; */
+}
+i {
+    /* margin-top: 23px; */
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 40px;
+    padding: 6px 20px;
+    /* background-color: rgb(44, 56, 71); */
+    color: rgb(248, 246, 246);
+    border-radius: 10px;
+    font-weight: bold;
+}
+i:hover {
+    transition: 1.6s;
+    background-color: rgb(236, 11, 11);
+}

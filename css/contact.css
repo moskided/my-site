@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 239, 239);
+}
+
+.all {
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+}
+
+.main {
+    width: 700px;
+}
+
+.sidebar {
+    width: 100px;
+}
+
+form input {
+    width: 250px;
+    border: none;
+    height: 25px;
+    background-color: white;
+}
+
+.div {
+    margin-bottom: 20px;
+}
+
+form label,
+.textarea {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    padding: 5px 0px;
+}
+
+.text {
+    border: none;
+    height: 120px;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: rgb(14, 165, 82);
+    padding: 8px;
+}
+
+.bar p {
+    font-size: 14px;
+    color: rgb(247, 90, 116);
+}
+
+.bar p a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar p a:hover {
+    color: rgb(155, 121, 121);
+}
+
+.special a {
+    padding-right: 5px;
+    padding-left: 3px;
+    border-right: 2px solid black;
+
+}
+
+hr {
+    width: 260px;
+    margin: 20px 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    /* justify-content: center; */
+    /* margin-top: 200px; */
+}
+
+nav ul li {
+    padding: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: .6s;
+}
+
+footer {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    justify-content: center;
+    margin-top:200px
+}
